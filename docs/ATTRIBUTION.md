@@ -21,8 +21,9 @@ in distributed substantial copies.
   their required notices and reassess the licenses. Re-review if new
   third-party code, assets, or bundled dependencies are introduced.
 
-This repository is an **unpublished, private staging candidate** for a possible
-experimental public beta. It is not an official RDT-Client or Home Assistant
-project. No publication authorization or independent third-party provenance
-attestation is implied by this document. Confirm original authorship and any
-copied/adapted source obligations before a separate publication decision.
+This source is an **experimental public-beta candidate**, not an official
+RDT-Client or Home Assistant project. Public distribution requires separate
+authorization from the repository owner and confirmation of the necessary
+rights to distribute the code. This assessment is not independent proof of
+authorship or third-party provenance. Any copied or adapted source must retain
+its required notices and comply with applicable licenses.

@@ -1,7 +1,7 @@
 # RDT-Client for Home Assistant — experimental beta
 
-**Status:** Experimental public-beta candidate — prepared in a private staging
-repository. Publication has not been authorized or performed. This is not a
+**Status:** Experimental public-beta candidate. Public distribution
+requires separate authorization from the repository owner. This is not a
 production-certified or official RDT-Client / Home Assistant integration.
 
 A small, read-only Home Assistant custom integration for the independent
