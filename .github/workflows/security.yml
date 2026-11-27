@@ -1,0 +1,20 @@
+name: Minimal RDT-Client security scan
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.14'
+      - run: python -m pip install bandit pip-audit 'homeassistant==2026.11.2'
+      - run: python -m bandit -q -r custom_components/rdt_client -ll
+      - run: python -m pip_audit --local --progress-spinner off
