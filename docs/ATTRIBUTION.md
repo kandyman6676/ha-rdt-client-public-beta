@@ -16,14 +16,23 @@ in distributed substantial copies.
   No separate third-party NOTICE obligation was identified in the reviewed
   source snapshot. This is a **scoped assessment, not independent proof
   of every contribution's authorship**.
-- Before public publication, the rights holder should confirm whether
-  any code was copied or adapted from third-party sources. If so, retain
-  their required notices and reassess the licenses. Re-review if new
-  third-party code, assets, or bundled dependencies are introduced.
+- For this public experimental-beta distribution,
+  the repository owner has authorized public distribution,
+  but verification of all necessary distribution rights
+  and applicable third-party attribution obligations
+  remains incomplete.
+  If copied or adapted source is identified, retain
+  required notices and reassess applicable licenses.
+  Re-review when new third-party code, assets, or
+  bundled dependencies are introduced.
 
-This source is an **experimental public-beta candidate**, not an official
-RDT-Client or Home Assistant project. Public distribution requires separate
-authorization from the repository owner and confirmation of the necessary
-rights to distribute the code. This assessment is not independent proof of
-authorship or third-party provenance. Any copied or adapted source must retain
-its required notices and comply with applicable licenses.
+This repository is a publicly available experimental beta,
+not an official RDT-Client or Home Assistant project.
+Public distribution has been authorized by the repository
+owner. That authorization does not independently establish
+all necessary distribution rights. This attribution
+assessment is scoped and does not constitute independent
+proof of original authorship, third-party provenance,
+or comprehensive legal compliance.
+Any copied or adapted source must retain required notices
+and comply with applicable licenses.

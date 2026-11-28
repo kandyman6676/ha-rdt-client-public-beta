@@ -1,8 +1,9 @@
 # RDT-Client for Home Assistant — experimental beta
 
-**Status:** Experimental public-beta candidate. Public distribution
-requires separate authorization from the repository owner. This is not a
-production-certified or official RDT-Client / Home Assistant integration.
+**Status:** Public experimental beta. This is an
+independent, read-only Home Assistant integration for
+RDT-Client. It is not production-certified, officially
+endorsed, or affiliated with RDT-Client or Home Assistant.
 
 A small, read-only Home Assistant custom integration for the independent
 [RDT-Client](https://github.com/rogerfar/rdt-client) service.
@@ -54,12 +55,19 @@ accessible to that test Home Assistant instance.
 
 ## Experimental beta validation and limitations
 
-This is a proposed public-beta distribution, not a production-readiness claim.
-Before public publication, confirm original-code authorship and any third-party
-attribution requirements described in [ATTRIBUTION.md](docs/ATTRIBUTION.md).
-A repository visibility change, HACS release, installation, or deployment
-requires distinct approval. The `completion_on` feature and nonzero transfer
-speed unit behavior remain unverified against a real populated queue.
+This repository contains a publicly available experimental
+beta, not a production-readiness claim. The repository
+owner has authorized public experimental-beta distribution.
+Verification of all necessary distribution rights and
+third-party attribution obligations remains incomplete.
+See the third-party
+attribution assessment in [ATTRIBUTION.md](docs/ATTRIBUTION.md).
+
+A GitHub release, HACS publication, installation, or
+deployment requires separate review and authorization.
+The `completion_on` feature and nonzero transfer-speed
+unit behavior remain unverified against a real populated
+queue.
 
 The minimal API/privacy, Home Assistant compatibility smoke/lifecycle,
 and security workflows apply to this clean-history distribution. Passing
@@ -68,6 +76,7 @@ compatibility or production readiness.
 
 **License:** [MIT](LICENSE), Copyright (c) 2026 kandyman6676.
 See [third-party attribution assessment](docs/ATTRIBUTION.md).
-This is not endorsed by or affiliated with the upstream RDT-Client
-or Home Assistant projects. Distribution/publication requires separate
-authorization from the repository owner.
+This independent experimental integration is not endorsed
+by or affiliated with the upstream RDT-Client or Home
+Assistant projects. Future releases, HACS publication,
+installation, or deployment require separate authorization.
