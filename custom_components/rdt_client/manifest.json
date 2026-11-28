@@ -7,5 +7,6 @@
   "integration_type": "service",
   "iot_class": "local_polling",
   "requirements": [],
-  "version": "0.1.0b1"
+  "version": "0.1.0b1",
+  "issue_tracker": "https://github.com/kandyman6676/ha-rdt-client-public-beta/issues"
 }
