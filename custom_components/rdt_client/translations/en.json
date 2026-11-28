@@ -1,0 +1,25 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Connect to RDT-Client",
+        "description": "Enter the URL and login for your existing RDT-Client server. HTTP addresses are supported on trusted networks but are not encrypted. For HTTPS, keep certificate verification enabled unless you understand the risks of accepting an untrusted certificate. Disabling verification weakens protection against impersonation. Credentials stay in Home Assistant.",
+        "data": {
+          "url": "Server URL",
+          "username": "Username",
+          "password": "Password",
+          "verify_ssl": "Verify HTTPS certificates (recommended)"
+        }
+      }
+    },
+    "error": {
+      "invalid_url": "Enter a valid HTTP or HTTPS server URL without a path or embedded credentials.",
+      "invalid_auth": "The server rejected the username or password.",
+      "cannot_connect": "Unable to connect to RDT-Client. Check the address, network access, and server status.",
+      "unknown": "An unexpected error occurred. Please review Home Assistant logs without sharing passwords."
+    },
+    "abort": {
+      "already_configured": "This RDT-Client server is already configured."
+    }
+  }
+}
